@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvTituloEjercicio9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 9: Compartir Texto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etTextoCompartir"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Escribe aquí el mensaje o texto que deseas compartir..."
+        android:inputType="textMultiLine"
+        android:gravity="top|start"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCompartirTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartir Mensaje" />
+
+</LinearLayout>

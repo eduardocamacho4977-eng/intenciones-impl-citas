@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taller Práctico Android Studio"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guía de Intenciones - Aprendiz SENA"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 1: RecyclerView Básico"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 2: Productos con imágenes"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 3: Lista de lugares con detalle"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 4: Agregar elementos a una lista"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 5: Enviar y devolver un producto"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 6: Gestión de contactos"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 7: Gestión de notas"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 8: Mostrar una ubicación"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 9: Compartir texto"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 10: Seleccionar un contacto"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 11: Abrir un archivo PDF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 12: Aplicación con varias intenciones"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvTituloEjercicio5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 5: Devolver Producto Seleccionado"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnAbrirListaProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Lista de Productos"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Producto devuelto:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvProductoDevuelto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ningún producto seleccionado todavía."
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:background="#F0F0F0"
+        android:gravity="center" />
+
+</LinearLayout>
